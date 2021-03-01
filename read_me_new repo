@@ -1,0 +1,21 @@
+…or create a new repository on the command line
+echo "# bash_profile" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Gamil1/bash_profile.git
+git push -u origin main
+
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Gamil1/bash_profile.git
+git branch -M main
+git push -u origin main
+
+alias ll='ls -la'
+alias cls='clear'
+
+export PS1="\[$(tput setaf 7)\]┌─[\[$(tput setaf 208)\]\u\[$(tput setaf 208)\]@\h\[$(tput setaf 7)\]][\[$(tput setaf 75)\]\W\[$(tput setaf 7)\]]\[$(tput setaf 7)\]\n└───\[$(tput setaf 208)\]■\[$(tput sgr0)\]"
