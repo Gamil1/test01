@@ -19,3 +19,8 @@ alias ll='ls -la'
 alias cls='clear'
 
 export PS1="\[$(tput setaf 7)\]┌─[\[$(tput setaf 208)\]\u\[$(tput setaf 208)\]@\h\[$(tput setaf 7)\]][\[$(tput setaf 75)\]\W\[$(tput setaf 7)\]]\[$(tput setaf 7)\]\n└───\[$(tput setaf 208)\]■\[$(tput sgr0)\]"
+
+#export PS1="\[\e[92;40m\]\h\[\e[m\]:\[\e[93m\]\W\[\e[m\] \\$ "
+
+
+#export PS1="\u$ "
